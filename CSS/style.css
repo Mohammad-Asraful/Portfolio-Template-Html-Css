@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding-left: 120px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  background-color: #222222;
+  width: 120px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul li {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  background-color: #222222;
+}
+
+nav ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul li:hover {
+  background-color: #000;
+}
+
+nav ul li a {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 15px;
+  color: white;
+}
+
+nav ul li a i {
+  font-size: 25px;
+}
+
+nav ul li a span {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* hero section */
+
+.hero {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.my-name {
+  font-size: 35px;
+}
+
+.bio {
+  margin: 15px 0;
+  font-size: 12px;
+}
+
+/* about section */
+
+.about {
+  background-color: black;
+  color: white;
+}
+
+.about-name {
+  border-bottom: 2px solid;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.about-me {
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+/* 3rd section */
+.my-skills {
+  background: #000;
+  padding: 20px 0;
+  padding-bottom: 30px;
+}
+
+.skill-heading {
+  color: white;
+  font-size: 36px;
+}
+
+.skill-name {
+  color: gray;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.progress {
+  background: #fff;
+  height: 30px;
+}
+
+.progress .pg-parcent-1 {
+  background: gray;
+  width: 90%;
+  height: 100%;
+}
+.progress .pg-parcent-2 {
+  background: gray;
+  width: 70%;
+  height: 100%;
+}
+
+.progress .pg-parcent-3 {
+  background: gray;
+  width: 50%;
+  height: 100%;
+}
+
+/* 4th section */
+
+.quantity-section {
+  background-color: #000;
+}
+
+.quantity {
+  background-color: #e2e2e2;
+  padding: 15px 40px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.resume-btn {
+  background-color: #e2e2e2;
+  padding: 5px 10px;
+  margin: 20px 0;
+}
+
+/* 5th section */
+
+.price-section {
+  background-color: #000;
+  color: gray;
+  padding: 30px 0;
+}
+
+.price-header {
+  color: white;
+  margin-bottom: 20px;
+  background-color: #575454;
+  width: 80px;
+  padding: 5px 2px;
+}
+
+.my-prices {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+  align-items: center;
+}
+
+.prices {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.prices:hover {
+  opacity: 1;
+}
+
+.course-name {
+  background-color: #363434;
+  padding: 10px 50px;
+  font-weight: bold;
+}
+
+.course-list {
+  background-color: #fff;
+  font-size: 10px;
+  padding: 10px 0;
+}
+
+.course-list p {
+  border-bottom: 1px solid;
+  padding: 10px;
+}
+
+.course-list p:last-child {
+  border-bottom: none;
+}
+
+.course-price span {
+  display: block;
+}
+
+.sign-up-button {
+  background-color: #dddddd;
+  padding: 15px;
+}
+
+.sign-up-button button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+}
+
+.sign-up-button button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* 6th section */
+
+.comment {
+  background-color: #000;
+}
+
+.comment-heading {
+  color: white;
+  padding: 30px 0;
+  font-size: 25px;
+}
+
+.comment-main-div {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.comment-profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.comment-text-div {
+  color: white;
+}
+
+/* 7th section */
+
+.my-image-div {
+  background-color: black;
+  padding-bottom: 30px;
+}
+
+.my-image-header {
+  color: white;
+  font-size: 35px;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  padding: 40px 40px 15px 0;
+}
+
+.my-images {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.my-images div img {
+  margin-bottom: 20px;
+}
+
+/* 8th section */
+.contact-section {
+  color: white;
+  background-color: #000;
+}
+
+.contact-header {
+  padding: 10px 15px 10px 0;
+  border-bottom: 1px solid white;
+  display: inline-block;
+}
+
+.contact-icon-div {
+  padding: 30px 0;
+}
+
+.contact-information {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.contact-icon {
+  font-size: 25px;
+}
+
+.contact-text {
+  font-size: 12px;
+  color: gray;
+}
+
+/* 9th section */
+
+.input-section {
+  background-color: black;
+  padding-bottom: 30px;
+}
+
+.input-heading {
+  color: #575454;
+  padding-bottom: 10px;
+}
+
+.inputs {
+  padding-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 0 10px 5px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input:last-child {
+  margin-bottom: 0;
+}
+
+.message-btn {
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+}
+
+/* 10th section footer */
+
+footer {
+  background-color: #000;
+  color: white;
+  padding: 40px 0 40px 0;
+}
+
+.footer-icon a i {
+  opacity: 0.5;
+  padding: 2px;
+  color: white;
+}
+
+.footer-icon a i:hover {
+  opacity: 1;
+}
+
+.footer-text {
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.footer-link {
+  color: white;
+}
+
+.footer-link {
+  text-decoration: underline;
+}
